@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  }
+header{background:linear-gradient(to top,black,blue);
+  
+}
+
+main{background:linear-gradient(to top,black,blue);
+  
+}
+
+footer{
+  background:linear-gradient(to top,black,blue);
+  position:absolute;
+  left:0;
+  top:780px;
+  height: 200px;
+  width: 100%;
+}
+
+img{height:100px;
+   width:100px;}
+
+.github{
+  position:absolute;
+  left:40%
+}
+.linkedin{
+  position:absolute;
+  left:50%
+  
+}
