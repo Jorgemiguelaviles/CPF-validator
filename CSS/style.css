@@ -14,9 +14,12 @@ header{background:linear-gradient(to Bottom,#00011f,#00007c);
 }
 
 p{font-size: 2em;
- color:white;}
+ color:white;
+ font-family: 'Roboto Condensed', sans-serif;
 
-.fundoSecundario{background:black;
+}
+
+.fundoSecundario{background-image:linear-gradient(to bottom,#000000,#0300F5,#2500DE,#560CF5,#740CEB);
      text-align: right;
      width:50%;
      height:70%;
@@ -37,14 +40,23 @@ p{font-size: 2em;
     right: 0;
     margin:5%;
     font-size: 1em;
+        font-family: 'Roboto Condensed', sans-serif;
+
+
     }
 
 
 .analise{display:block;
     position:absolute;
+    height:2em;
+    width:5em ;   
     right: 0;
     top:150px;
     margin:5%;
+    font-size:1rem ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
     }
 
 .inv{display:none;
