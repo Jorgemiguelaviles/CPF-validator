@@ -1,22 +1,70 @@
 html, body {
   height: 100%;
   width: 100%;
+  background:linear-gradient(to Bottom,black,blue,lightblue,white);
   }
-header{background:linear-gradient(to top,black,blue);
-  
-}
-
-main{background:linear-gradient(to top,black,blue);
-  
-}
-
-footer{
-  background:linear-gradient(to top,black,blue);
+header{background:linear-gradient(to Bottom,#00011f,#00007c);
+  width:100%;
+  padding:0;
+  text-align: center;
+  height:16%;
   position:absolute;
   left:0;
-  top:780px;
+  
+}
+
+p{font-size: 2em;
+ color:white;}
+
+.fundoSecundario{background:black;
+     text-align: right;
+     width:50%;
+     height:70%;
+     border-radius: 50% 0px 0px 50%;
+     position:absolute;
+     top:20%;
+     left:51%;
+     
+  
+}
+
+
+
+.CPF{display:block;
+    position:absolute;
+    height:2em;
+    width:15em ;
+    right: 0;
+    margin:5%;
+    font-size: 1em;
+    }
+
+
+.analise{display:block;
+    position:absolute;
+    right: 0;
+    top:150px;
+    margin:5%;
+    }
+
+.inv{display:none;
+    position:absolute;
+    right: 10px;
+    top:200px;}
+
+.val{display:none;
+    position:absolute;
+    right: 10px;
+    top:200px;}
+
+footer{
+  background:linear-gradient(to top,white,#daedf4);
+  position:absolute;
+  left:0;
+  top:680px;
   height: 200px;
   width: 100%;
+  text-align: center;
 }
 
 img{height:100px;
