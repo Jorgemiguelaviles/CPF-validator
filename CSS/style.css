@@ -19,7 +19,7 @@ p{font-size: 2em;
 
 }
 
-.fundoSecundario{background-image:linear-gradient(to bottom,#000000,#0300F5,#2500DE,#560CF5,#740CEB);
+.fundoSecundario{background:#000000;
      text-align: right;
      width:50%;
      height:70%;
